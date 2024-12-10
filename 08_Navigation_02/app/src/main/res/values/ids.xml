@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewTitle" type="id" />
+    <item name="textViewTopic" type="id" />
+    <item name="textViewEmail" type="id" />
+    <item name="textViewGrade" type="id" />
+</resources>

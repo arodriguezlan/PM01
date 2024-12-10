@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- Título de la investigación -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Título de investigación" />
+
+    <!-- Tema -->
+    <TextView
+        android:id="@+id/textViewTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema"
+        android:textStyle="italic"
+        android:textSize="14sp"/>
+
+    <!-- Correo electrónico del autor -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo del autor"
+        android:textSize="14sp"/>
+
+    <!-- Grado académico -->
+    <TextView
+        android:id="@+id/textViewGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grado académico"
+        android:textSize="14sp"/>
+</LinearLayout>

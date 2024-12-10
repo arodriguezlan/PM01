@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/investigaciones"
+            android:title="@string/menu_login" />
+        <item
+            android:id="@+id/nav_investigaciones"
+            android:icon="@mipmap/investigaciones"
+            android:title="@string/menu_investigaciones" />
+        <item
+            android:id="@+id/nav_proyecto"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_Proyecto" />
+        <item
+            android:id="@+id/nav_comentarios"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_comentario" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_black_24dp"
+            android:title="@string/title_about" />
+
+    </group>
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp">
+
+        <!-- Campos del formulario -->
+        <EditText
+            android:id="@+id/edtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Título"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/edtConclusions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Conclusiones"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/edtRecommendations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recomendaciones"
+            android:minHeight="48dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/areas"
+            android:minHeight="48dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCiclo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/ciclos"
+            android:minHeight="48dp"/>
+
+        <!-- Campos para seleccionar el PDF -->
+        <EditText
+            android:id="@+id/edtCommentPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comentario para el PDF"
+            android:minHeight="48dp"/>
+
+        <Button
+            android:id="@+id/btnSelectPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar PDF" />
+
+        <!-- Campos para seleccionar fotos -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="Foto seleccionada"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Imagen" />
+
+        <!-- Botón para enviar -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+    </LinearLayout>
+</ScrollView>

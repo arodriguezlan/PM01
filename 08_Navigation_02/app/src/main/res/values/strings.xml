@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">08_Navigation_02</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_investigaciones">Investigaciones</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_Proyecto">Proyectos</string>
+    <string name="menu_comentario">Comentarios</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_signup">Registro</string>
+
+
+    <string name="title_about">Acerca de...</string>
+    <string name="message_home">Este es el fragment de Inicio</string>
+    <string name="message_gallery">Este es el fragment de la Galería</string>
+    <string name="message_slideshow">Este es el fragment de Presentaciones</string>
+    <string name="message_about">Somos los Mugiwaras, es el Proyecto de Móviles I\nDesarrollo de Aplicaciones móviles I\nIntegrantes: Génesis Vallejo, Ashly Rodríguez\nProfesor: Jorge Ruiz\nCuatrimestre: IIC\naño: 2024</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="title_activity_login">Validando usuario</string>
+    <string name="title_activity_signup">Registrando usuario</string>
+    <string name="title_activity_main">Lista de Categorías</string>
+
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_password_confirm">Confirmar contraseña</string>
+    <string name="prompt_registerhere">Registrate aquí</string>
+    <string name="prompt_register">Registrarse</string>
+    <string name="prompt_login">Ingresar</string>
+    <string name="prompt_google">Ingresar con google</string>
+    <string name="default_web_client_id">default_web_client_id</string>
+
+
+    <string name="prompt_autor">Seleccione un autor</string>
+    <string name="prompt_area">Seleccione un área</string>
+    <string name="prompt_ciclo_escolar">Seleccione un ciclo escolar</string>
+    <string name="prompt_fecha">Ordenar por fecha</string>
+
+
+    <!-- Prompts and Labels -->
+    <string name="topic_prompt">Seleccionar tema</string>
+    <string name="grade_prompt">Seleccionar grado académico</string>
+    <string name="reset">Restablecer</string>
+    <string name="apply_filters">Aplicar Filtros</string>
+
+    <!-- Titles -->
+    <string name="research_list_title">Lista de Investigaciones</string>
+    <string name="description_title">Descripción</string>
+
+    <!-- Messages -->
+    <string name="no_results">No se encontraron investigaciones.</string>
+    <string name="loading">Cargando...</string>
+
+    <!-- Mensajes de filtro -->
+    <string name="filter_all_topics">Todos los temas</string>
+    <string name="filter_science">Ciencia</string>
+    <string name="filter_technology">Tecnología</string>
+    <string name="filter_mathematics">Matemáticas</string>
+    <string name="filter_literature">Literatura</string>
+
+    <string name="filter_all_grades">Todos los grados</string>
+    <string name="filter_undergraduate">Pregrado</string>
+    <string name="filter_postgraduate">Posgrado</string>
+    <string name="filter_doctorate">Doctorado</string>
+
+    <!-- Mensajes para interacción -->
+    <string name="filter_reset">Restablecer filtros</string>
+    <string name="filter_apply">Aplicar filtros</string>
+
+    <string name="research_title">Título de la investigación</string>
+    <string name="research_topic">Tema</string>
+    <string name="research_email">Correo del autor</string>
+    <string name="research_grade">Grado académico</string>
+    <string name="photo_desc" />
+
+</resources>

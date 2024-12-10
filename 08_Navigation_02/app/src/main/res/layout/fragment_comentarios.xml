@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Información del Proyecto -->
+    <TextView
+        android:id="@+id/txtProyectoTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título del Proyecto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtProyectoDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción del proyecto"
+        android:textSize="16sp"
+        android:paddingBottom="16dp" />
+
+    <!-- Lista de Proyectos -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proyectos:"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProyectos"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:scrollbars="vertical" />
+
+    <!-- Lista de Comentarios -->
+    <TextView
+        android:id="@+id/txtComentarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comentarios:"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Botón para agregar comentarios -->
+    <Button
+        android:id="@+id/btnAgregarComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Comentario" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comentario del usuario"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating: 5"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#757575" />
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha: 2023-12-01"
+        android:textSize="12sp"
+        android:textColor="#757575" />
+
+</LinearLayout>

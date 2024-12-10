@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/editTextComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentario"
+        android:minHeight="48dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rating_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/rating_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/rating_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/rating_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <RadioButton
+            android:id="@+id/rating_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+    </RadioGroup>
+
+</LinearLayout>

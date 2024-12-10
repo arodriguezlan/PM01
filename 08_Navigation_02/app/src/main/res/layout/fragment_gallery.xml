@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Título de la galería -->
+    <TextView
+        android:id="@+id/txtTituloGaleria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galería de Fotos"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <!-- RecyclerView para mostrar la galería -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGaleria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:padding="4dp" />
+</LinearLayout>

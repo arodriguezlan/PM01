@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"> <!-- Espaciado general -->
+
+    <!-- Spinner para el tema -->
+    <Spinner
+        android:id="@+id/spinnerTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <!-- Spinner para el grado académico -->
+    <Spinner
+        android:id="@+id/spinnerAcademicGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <!-- Botón para aplicar filtros -->
+    <Button
+        android:id="@+id/btnApplyFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicar filtros" />
+
+    <!-- Botón para reiniciar filtros -->
+    <Button
+        android:id="@+id/btnResetFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restablecer filtros" />
+
+    <!-- RecyclerView ocupa el espacio restante -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewResearch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+
